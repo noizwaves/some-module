@@ -1,0 +1,11 @@
+kind: Module
+description: some module
+type: container
+name: some-module
+image: nginx:latest
+services:
+  - name: some-module
+tasks:
+  - name: hello-world 
+    command: [echo, "hello world"]
+
